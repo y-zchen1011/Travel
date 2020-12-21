@@ -160,7 +160,7 @@ function pageBtn (page){
 
 /*paging control */
 function switchPage(e){
-    e.preventDefault();
+    //e.preventDefault();
     if(e.target.nodeName !== 'A') return;
     const page = e.target.dataset.page;
     pagination(NewDataArray, page);
