@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03932873-2e21-42c9-af65-8d4716eeac18" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="ProjectId" id="1lv8Mxw7fUjckridkBsUcf60a1S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Homework_Tarvel/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03932873-2e21-42c9-af65-8d4716eeac18" name="Default Changelist" comment="" />
+      <created>1608466162113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608466162113</updated>
+      <workItem from="1608466163923" duration="5367000" />
+      <workItem from="1608532348347" duration="12003000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="375" y="207" key="EditFileWatcherDialog" timestamp="1608466380531">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="375" y="207" key="EditFileWatcherDialog/0.25.1440.805/1440.-31.1920.1055@0.25.1440.805" timestamp="1608466380531" />
+    <state width="1419" height="303" key="GridCell.Tab.0.bottom" timestamp="1608545636183">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-31.1920.1055@0.0.1440.900" timestamp="1608545636183" />
+    <state width="1419" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-56.1920.1080@0.0.1440.900" timestamp="1608533042460" />
+    <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.25.1440.803/1440.-31.1920.1055@0.25.1440.803" timestamp="1608466268170" />
+    <state width="1419" height="203" key="GridCell.Tab.0.bottom/0.25.1440.805/1440.-31.1920.1055@0.25.1440.805" timestamp="1608466408360" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.25.1440.806/1440.-31.1920.1055@0.25.1440.806" timestamp="1608468428008" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.25.1440.808/1440.-31.1920.1055@0.25.1440.808" timestamp="1608467220768" />
+    <state width="1419" height="303" key="GridCell.Tab.0.center" timestamp="1608545636181">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.0.center/0.0.1440.900/1440.-31.1920.1055@0.0.1440.900" timestamp="1608545636181" />
+    <state width="1419" height="303" key="GridCell.Tab.0.center/0.0.1440.900/1440.-56.1920.1080@0.0.1440.900" timestamp="1608533042458" />
+    <state width="1419" height="203" key="GridCell.Tab.0.center/0.25.1440.803/1440.-31.1920.1055@0.25.1440.803" timestamp="1608466268164" />
+    <state width="1419" height="203" key="GridCell.Tab.0.center/0.25.1440.805/1440.-31.1920.1055@0.25.1440.805" timestamp="1608466408359" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.25.1440.806/1440.-31.1920.1055@0.25.1440.806" timestamp="1608468428006" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.25.1440.808/1440.-31.1920.1055@0.25.1440.808" timestamp="1608467220767" />
+    <state width="1419" height="303" key="GridCell.Tab.0.left" timestamp="1608545636179">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.0.left/0.0.1440.900/1440.-31.1920.1055@0.0.1440.900" timestamp="1608545636179" />
+    <state width="1419" height="303" key="GridCell.Tab.0.left/0.0.1440.900/1440.-56.1920.1080@0.0.1440.900" timestamp="1608533042457" />
+    <state width="1419" height="203" key="GridCell.Tab.0.left/0.25.1440.803/1440.-31.1920.1055@0.25.1440.803" timestamp="1608466268163" />
+    <state width="1419" height="203" key="GridCell.Tab.0.left/0.25.1440.805/1440.-31.1920.1055@0.25.1440.805" timestamp="1608466408359" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.25.1440.806/1440.-31.1920.1055@0.25.1440.806" timestamp="1608468428005" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.25.1440.808/1440.-31.1920.1055@0.25.1440.808" timestamp="1608467220767" />
+    <state width="1419" height="303" key="GridCell.Tab.0.right" timestamp="1608545636182">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.0.right/0.0.1440.900/1440.-31.1920.1055@0.0.1440.900" timestamp="1608545636182" />
+    <state width="1419" height="303" key="GridCell.Tab.0.right/0.0.1440.900/1440.-56.1920.1080@0.0.1440.900" timestamp="1608533042459" />
+    <state width="1419" height="203" key="GridCell.Tab.0.right/0.25.1440.803/1440.-31.1920.1055@0.25.1440.803" timestamp="1608466268165" />
+    <state width="1419" height="203" key="GridCell.Tab.0.right/0.25.1440.805/1440.-31.1920.1055@0.25.1440.805" timestamp="1608466408360" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.25.1440.806/1440.-31.1920.1055@0.25.1440.806" timestamp="1608468428007" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.25.1440.808/1440.-31.1920.1055@0.25.1440.808" timestamp="1608467220768" />
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom" timestamp="1608545636186">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-31.1920.1055@0.0.1440.900" timestamp="1608545636186" />
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.-56.1920.1080@0.0.1440.900" timestamp="1608533042463" />
+    <state width="1419" height="203" key="GridCell.Tab.1.bottom/0.25.1440.803/1440.-31.1920.1055@0.25.1440.803" timestamp="1608466268177" />
+    <state width="1419" height="203" key="GridCell.Tab.1.bottom/0.25.1440.805/1440.-31.1920.1055@0.25.1440.805" timestamp="1608466408362" />
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.25.1440.806/1440.-31.1920.1055@0.25.1440.806" timestamp="1608468428011" />
+    <state width="1398" height="203" key="GridCell.Tab.1.bottom/0.25.1440.808/1440.-31.1920.1055@0.25.1440.808" timestamp="1608467220770" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center" timestamp="1608545636184">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.center/0.0.1440.900/1440.-31.1920.1055@0.0.1440.900" timestamp="1608545636184" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center/0.0.1440.900/1440.-56.1920.1080@0.0.1440.900" timestamp="1608533042461" />
+    <state width="1419" height="203" key="GridCell.Tab.1.center/0.25.1440.803/1440.-31.1920.1055@0.25.1440.803" timestamp="1608466268176" />
+    <state width="1419" height="203" key="GridCell.Tab.1.center/0.25.1440.805/1440.-31.1920.1055@0.25.1440.805" timestamp="1608466408361" />
+    <state width="1398" height="245" key="GridCell.Tab.1.center/0.25.1440.806/1440.-31.1920.1055@0.25.1440.806" timestamp="1608468428009" />
+    <state width="1398" height="203" key="GridCell.Tab.1.center/0.25.1440.808/1440.-31.1920.1055@0.25.1440.808" timestamp="1608467220769" />
+    <state width="1419" height="303" key="GridCell.Tab.1.left" timestamp="1608545636184">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.left/0.0.1440.900/1440.-31.1920.1055@0.0.1440.900" timestamp="1608545636184" />
+    <state width="1419" height="303" key="GridCell.Tab.1.left/0.0.1440.900/1440.-56.1920.1080@0.0.1440.900" timestamp="1608533042461" />
+    <state width="1419" height="203" key="GridCell.Tab.1.left/0.25.1440.803/1440.-31.1920.1055@0.25.1440.803" timestamp="1608466268175" />
+    <state width="1419" height="203" key="GridCell.Tab.1.left/0.25.1440.805/1440.-31.1920.1055@0.25.1440.805" timestamp="1608466408361" />
+    <state width="1398" height="245" key="GridCell.Tab.1.left/0.25.1440.806/1440.-31.1920.1055@0.25.1440.806" timestamp="1608468428009" />
+    <state width="1398" height="203" key="GridCell.Tab.1.left/0.25.1440.808/1440.-31.1920.1055@0.25.1440.808" timestamp="1608467220769" />
+    <state width="1419" height="303" key="GridCell.Tab.1.right" timestamp="1608545636185">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900/1440.-31.1920.1055@0.0.1440.900" timestamp="1608545636185" />
+    <state width="1419" height="303" key="GridCell.Tab.1.right/0.0.1440.900/1440.-56.1920.1080@0.0.1440.900" timestamp="1608533042462" />
+    <state width="1419" height="203" key="GridCell.Tab.1.right/0.25.1440.803/1440.-31.1920.1055@0.25.1440.803" timestamp="1608466268177" />
+    <state width="1419" height="203" key="GridCell.Tab.1.right/0.25.1440.805/1440.-31.1920.1055@0.25.1440.805" timestamp="1608466408361" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right/0.25.1440.806/1440.-31.1920.1055@0.25.1440.806" timestamp="1608468428010" />
+    <state width="1398" height="203" key="GridCell.Tab.1.right/0.25.1440.808/1440.-31.1920.1055@0.25.1440.808" timestamp="1608467220770" />
+    <state x="229" y="61" key="SettingsEditor" timestamp="1608466382495">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="229" y="61" key="SettingsEditor/0.25.1440.805/1440.-31.1920.1055@0.25.1440.805" timestamp="1608466382495" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Homework_Tarvel$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1608467170390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

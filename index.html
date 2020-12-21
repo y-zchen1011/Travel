@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header class="py-8">
+    <div class="container">
+        <div class="row flex-column align-items-center mb-8">
+            <h1 class="text-white text-center mb-7">高雄旅遊資訊</h1>
+            <select class="col-6 custom-select" id="district"></select>
+        </div>
+    </div>
+</header>
+
+<section class="menu bg-white col-8 mx-auto py-2">
+    <h3>熱門行政區</h3>
+    <ul class="col-12 d-flex justify-content-start list-unstyled" id="popularList">
+        <li><button class="btn btn-purple mr-5 px-6 py-2" value="苓雅區">苓雅區</button></li>
+        <li><button class="btn btn-orange mr-5 px-6 py-2" value="三民區">三民區</button></li>
+        <li><button class="btn btn-yellow mr-5 px-6 py-2" value="新興區">新興區</button></li>
+        <li><button class="btn btn-blue px-6 py-2" value="鼓山區">鼓山區</button></li>
+    </ul>
+</section>
+
+<main class="pt-9 pb-5">
+    <h1 class="text-center text-purple my-6" id="districtTitle">三民區</h1>
+    <div class="container">
+        <div class="row justify-content-between mb-6" id="card-group"></div>
+        <nav aria-label="Page navigation " id="pagination">
+            <ul class="pagination justify-content-center ">
+                <li class="page-item ">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Prev</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <a href="#" class="" id="goTop"><img src="img/btn_goTop.png" alt=""></a>
+</main>
+
+<footer class="bg-blue py-3 d-flex flex-column align-items-center">
+    <p class="text-white">高雄旅遊網</p>
+    <p class="text-yellow mb-0">資料來源 : 高雄市政府</p>
+</footer>
+
+<script src="jquery-3.5.0.js"></script>
+<script src="all.js"></script>
+</body>
+
+</html>

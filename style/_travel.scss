@@ -1,0 +1,34 @@
+body{
+  font-family: "PingFang TC", serif;
+}
+
+header{
+  background: url("../img/the-urban-landscape-1698285.png") top left no-repeat;
+  background-size: cover;
+}
+
+.menu{
+  margin-top: -30px;
+  border-radius: 10px;
+  box-shadow: 3px 7px #888888;
+}
+main{
+  .card{
+    width: 49%;
+    &:nth-child(n){
+      margin-right: 10px;
+    }
+    .card-title{
+      height: 150px;
+    }
+  }
+  #goTop{
+    position: fixed;
+    right: 15%;
+    bottom: 20%;
+  }
+}
+
+
+
+
