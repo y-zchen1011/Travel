@@ -11902,8 +11902,18 @@ header {
 main .card {
   width: 49%;
 }
+@media (max-width: 991.98px) {
+  main .card {
+    width: 100%;
+  }
+}
 main .card:nth-child(n) {
   margin-right: 10px;
+}
+@media (max-width: 991.98px) {
+  main .card:nth-child(n) {
+    margin-right: 0;
+  }
 }
 main .card .card-title {
   height: 150px;

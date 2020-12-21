@@ -15,8 +15,14 @@ header{
 main{
   .card{
     width: 49%;
+    @include media-breakpoint-down(md) {
+      width: 100%;
+    }
     &:nth-child(n){
       margin-right: 10px;
+      @include media-breakpoint-down(md) {
+        margin-right: 0;
+      }
     }
     .card-title{
       height: 150px;

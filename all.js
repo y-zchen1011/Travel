@@ -1,10 +1,14 @@
 // variable declaration
+let rawData = {}
 let NewDataArray = [];
 const xhr = new XMLHttpRequest();
 const cards = document.querySelector('#card-group');
 const paginationArea = document.querySelector('#pagination');
+const pageID = document.querySelector('#page');
 const btns = document.querySelector('#popularList');
 const selectDistrict = document.querySelector('#district');
+
+
 
 
 /*convert Data from JSON to Array*/
@@ -33,9 +37,9 @@ function saveToLocal(rawDataArray) {
 }
 
 /*Default and All cards*/
-function showAllCards(){
+function showAllCards(array){
     document.querySelector('#districtTitle').innerHTML = '所有景點';
-    concatenation(NewDataArray);
+    concatenation(array);
 }
 
 /*show only selected data*/
@@ -94,20 +98,93 @@ function setSelect(){
     }
 }
 
+/*Pagination*/
+function pagination(dataArray , nowPage){
+    const dataTotal = dataArray.length;
+    const perPage = 10;
+    const pageTotal = parseInt(dataTotal/perPage) + 1;
+    let currentPage = nowPage;
+
+    if (currentPage > pageTotal) {currentPage = pageTotal;}
+
+    const minData = (currentPage * perPage) - perPage + 1 ;
+    const maxData = (currentPage * perPage) ;
+    const data = [];
+
+    dataArray.forEach((item, index) => {
+        const num = index + 1;
+        if ( num >= minData && num <= maxData) {
+            data.push(item);
+        }
+    });
+
+    const page = {
+        dataTotal,
+        currentPage,
+        pageTotal,
+        hasPage: currentPage > 1,
+        hasNext: currentPage < pageTotal,
+    }
+    showAllCards(data);
+    pageBtn(page);
+}
+
+/*generate Btn*/
+function pageBtn (page){
+    let str = '';
+    const total = page.pageTotal;
+
+    if(page.hasPage) {
+        str += `<li class="page-item"><a class="page-link" href="#" data-page="${Number(page.currentPage) - 1}">Previous</a></li>`;
+    } else {
+        str += `<li class="page-item disabled"><span class="page-link">Previous</span></li>`;
+    }
+
+
+    for(let i = 1; i <= total; i++){
+        if(Number(page.currentPage) === i) {
+            str +=`<li class="page-item active"><a class="page-link" href="#" data-page="${i}">${i}</a></li>`;
+        } else {
+            str +=`<li class="page-item"><a class="page-link" href="#" data-page="${i}">${i}</a></li>`;
+        }
+    }
+
+    if(page.hasNext) {
+        str += `<li class="page-item"><a class="page-link" href="#" data-page="${Number(page.currentPage) + 1}">Next</a></li>`;
+    } else {
+        str += `<li class="page-item disabled"><span class="page-link">Next</span></li>`;
+    }
+
+    pageID.innerHTML = str;
+}
+
+/*paging control */
+function switchPage(e){
+    e.preventDefault();
+    if(e.target.nodeName !== 'A') return;
+    const page = e.target.dataset.page;
+    pagination(NewDataArray, page);
+}
 
 
 
+/*xhr request*/
 xhr.open('get', 'https://raw.githubusercontent.com/hexschool/KCGTravel/master/datastore_search.json', true);
 xhr.send();
 xhr.onload = function () {
-    let rawDataArray = convertData(xhr.responseText);
+    rawData = convertData(xhr.responseText);
 
-    saveToLocal(rawDataArray);
+    saveToLocal(rawData);
+
+    pagination(NewDataArray,1);
 
     setSelect();
-
-    showAllCards();
 }
+
+
+
+
+/*EventListener*/
 btns.addEventListener('click', filterByDistrict, false);
 selectDistrict.addEventListener('change',filterByDistrict,false);
 window.addEventListener('scroll',function(){
@@ -118,3 +195,4 @@ window.addEventListener('scroll',function(){
         $('#goTop').show();
     }
 })
+pageID.addEventListener('click',switchPage, false);
