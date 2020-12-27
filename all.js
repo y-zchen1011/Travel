@@ -45,6 +45,8 @@ function showAllCards(array){
 /*show only selected data*/
 function filterByDistrict(e){
     let districtName = e.target.value;
+    selectDistrict.value = districtName;
+
     if(districtName === undefined || districtName === 0){return;}
     document.querySelector('#districtTitle').innerHTML = districtName;
     let filteredArray = NewDataArray.filter((name) =>name.district === districtName);
